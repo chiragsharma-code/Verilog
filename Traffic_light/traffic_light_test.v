@@ -23,6 +23,7 @@ module traffic_light_test;
         $dumpvars(0, traffic_light_test);
         $monitor("Time = %0t  ,Highway Light = %b ,Side Light:  =%b",
          $time, highway_light, side_light);
+         
     #100 $finish; // Run the simulation for 100 time units
     end
 endmodule
